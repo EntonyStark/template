@@ -30,7 +30,7 @@
 		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".json"] }],
 		"no-shadow": "off",
 		"singleQuote": true,
-		"indent": ["error", 2],
+		"indent": ["error", 2, {"SwitchCase": 1}],
 		"no-tabs": 0,
 		"no-underscore-dangle": 0,
 		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
