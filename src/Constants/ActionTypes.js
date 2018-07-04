@@ -1,2 +1,2 @@
-export const GET = "GET";
-export const SET = "SET";
+export const GET = 'GET';
+export const SET = 'SET';
