@@ -8,10 +8,10 @@ import Routes from './router';
 import './Style/index.scss';
 
 ReactDOM.render(
-	<Provider store={store}>
-		<BrowserRouter>
-			<Routes />
-		</BrowserRouter>
-	</Provider>,
-	document.getElementById('root'),
+  <Provider store={store}>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
+  </Provider>,
+  document.getElementById('root'),
 );
