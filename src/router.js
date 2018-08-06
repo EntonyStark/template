@@ -5,7 +5,7 @@ import App from './Containers/App';
 import TestComp from './Containers/test';
 
 const Routes = props => (
-  <Switch>
+  <Switch {...props}>
     <Route exact path="/" component={App} />
     <Route exact path="/test" component={TestComp} />
   </Switch>
