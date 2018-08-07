@@ -4,6 +4,7 @@ import Header from './header';
 import SectionOne from './sectionOne';
 import SectionTwo from './sectionTwo';
 import SectionThree from './sectionThree';
+import SectionFour from './sectionFour';
 
 export default () => (
   <Fragment>
@@ -12,6 +13,7 @@ export default () => (
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </main>
   </Fragment>
 );

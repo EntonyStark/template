@@ -32,6 +32,16 @@
 					$color-secondary-dark
 				);
 			}
+			&-2 {
+				background-image: linear-gradient(to right bottom, $lgreen, $dgreen);
+			}
+			&-3 {
+				background-image: linear-gradient(
+					to right bottom,
+					$color-tertiary-light,
+					$color-tertiary-dark
+				);
+			}
 		}
 	}
 
@@ -48,6 +58,8 @@
 		height: 23rem;
 		background-blend-mode: screen;
 		clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px;
 		&--1 {
 			background-image: linear-gradient(
 					to right bottom,
@@ -57,10 +69,16 @@
 				url("../Image/nat-5.jpg");
 		}
 		&--2 {
-			background-image: url("../Image/nat-5.jpg");
+			background-image: linear-gradient(to right bottom, $lgreen, $dgreen),
+				url("../Image/nat-6.jpg");
 		}
 		&--3 {
-			background-image: url("../Image/nat-5.jpg");
+			background-image: linear-gradient(
+					to right bottom,
+					$color-tertiary-light,
+					$color-tertiary-dark
+				),
+				url("../Image/nat-7.jpg");
 		}
 	}
 
@@ -84,6 +102,20 @@
 				to right bottom,
 				rgba($color-secondary-light, 0.85),
 				rgba($color-secondary-dark, 0.85)
+			);
+		}
+		&--2 {
+			background-image: linear-gradient(
+				to right bottom,
+				rgba($lgreen, 0.85),
+				rgba($dgreen, 0.85)
+			);
+		}
+		&--3 {
+			background-image: linear-gradient(
+				to right bottom,
+				rgba($color-tertiary-light, 0.85),
+				rgba($color-tertiary-dark, 0.85)
 			);
 		}
 	}

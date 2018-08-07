@@ -10,7 +10,7 @@
 		transition: all 0.2s;
 		position: relative;
 		font-size: $base-font-size;
-		color: $light-grey;
+		// color: $light-grey;
 		outline: 0;
 	}
 	&:hover {
@@ -50,6 +50,13 @@
 		color: $light-grey;
 		&:after {
 			background-color: $color-white;
+		}
+	}
+	&--green {
+		background-color: $mgreen;
+		color: $color-white;
+		&:after {
+			background-color: $mgreen;
 		}
 	}
 

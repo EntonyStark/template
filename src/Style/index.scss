@@ -10,10 +10,12 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "./base/utilities";
 @import "./base/base";
 
+@import "./components/bg-video";
 @import "./components/buttons";
 @import "./components/compositions";
 @import "./components/feature-box";
 @import "./components/card";
+@import "./components/story";
 
 @import "./layout/grid";
 @import "./layout/header";
