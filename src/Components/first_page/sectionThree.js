@@ -2,7 +2,7 @@ import React from 'react';
 import cards from '../../Utils/test';
 
 export default () => (
-  <section className="section-tours">
+  <section className="section-tours" id="section-tours">
     <div className="u-center-text u-margin-bottom-big">
       <h2 className="heading-secondary">Most popular tours</h2>
     </div>
@@ -20,7 +20,11 @@ export default () => (
                 </span>
               </h4>
               <div className="card__details">
-                <ul>{el.ul.map(elem => <li key={elem}>{elem}</li>)}</ul>
+                <ul>
+                  {el.ul.map(elem => (
+                    <li key={elem}>{elem}</li>
+                  ))}
+                </ul>
               </div>
             </div>
             <div
@@ -32,7 +36,7 @@ export default () => (
                   <div className="card__price-only">Only</div>
                   <div className="card__price-value">{`$${el.price}`}</div>
                 </div>
-                <a href="#" className="button button--white">
+                <a href="#popup" className="button button--white">
 									Book now!
                 </a>
               </div>

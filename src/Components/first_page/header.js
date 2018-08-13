@@ -8,7 +8,9 @@ const header = () => (
     </div>
     <div className="header__text-box">
       <h1 className="heading-priamory">
-        <span className="heading-priamory--main">Outdoors</span>
+        <span className="heading-priamory--main u-margin-bottom-small">
+					Outdoors
+        </span>
         <span className="heading-priamory--sub">is where life happens</span>
       </h1>
       <a href="#" className="button button--white button--animated">

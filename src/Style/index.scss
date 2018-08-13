@@ -17,8 +17,11 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "./components/card";
 @import "./components/story";
 @import "./components/form";
+@import "./components/popup";
 
 @import "./layout/grid";
+@import "./layout/navigation";
 @import "./layout/header";
+@import "./layout/footer";
 
 @import "./pages/home";

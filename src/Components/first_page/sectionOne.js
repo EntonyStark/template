@@ -3,6 +3,9 @@ import React from 'react';
 import img1 from '../../Image/nat-1-large.jpg';
 import img2 from '../../Image/nat-2-large.jpg';
 import img3 from '../../Image/nat-3-large.jpg';
+import img4 from '../../Image/nat-1.jpg';
+import img5 from '../../Image/nat-2.jpg';
+import img6 from '../../Image/nat-3.jpg';
 
 export default () => (
   <section className="section-about">
@@ -41,16 +44,22 @@ export default () => (
           <img
             src={img1}
             alt="img1"
+            srcSet={`${img4} 300w, ${img1} 1000w`}
+            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
             className="composition__photo composition__photo--p1"
           />
           <img
             src={img2}
+            srcSet={`${img5} 300w, ${img2} 1000w`}
             alt="img2"
+            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
             className="composition__photo composition__photo--p2"
           />
           <img
             src={img3}
             alt="img3"
+            srcSet={`${img6} 300w, ${img3} 1000w`}
+            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
             className="composition__photo composition__photo--p3"
           />
         </div>

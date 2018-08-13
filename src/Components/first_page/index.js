@@ -6,9 +6,13 @@ import SectionTwo from './sectionTwo';
 import SectionThree from './sectionThree';
 import SectionFour from './sectionFour';
 import SectionFive from './sectionFive';
+import Footer from './footer';
+import Navigation from './navigation';
+import Popap from './popup';
 
 export default () => (
   <Fragment>
+    <Navigation />
     <Header />
     <main>
       <SectionOne />
@@ -17,5 +21,7 @@ export default () => (
       <SectionFour />
       <SectionFive />
     </main>
+    <Footer />
+    <Popap />
   </Fragment>
 );
