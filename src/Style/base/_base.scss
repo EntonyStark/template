@@ -101,3 +101,8 @@ body {
 		padding: 0;
 	}
 }
+
+::selection {
+	background-color: $mgreen;
+	color: $color-white;
+}
