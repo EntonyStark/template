@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import FirsLayout from '../Components/first_page/index';
+import Layout from '../Components/first_page/index';
 
 class TestComp extends Component {
   render() {
-    return <FirsLayout {...this.props} />;
+    return <Layout {...this.props} />;
   }
 }
 

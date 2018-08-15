@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import App from './Containers/App';
-import TestComp from './Containers/FirstLayout';
+import TestComp from './Containers/Layout';
 
 const Routes = props => (
   <Switch {...props}>
