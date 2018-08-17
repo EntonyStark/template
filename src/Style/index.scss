@@ -1,5 +1,5 @@
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
 @import "./abstracts/functions";
 @import "./abstracts/mixins";
@@ -12,6 +12,11 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 
 @import "./layout/grid";
 @import "./layout/header";
-@import "./layout/footer";
+@import "./layout/container";
+@import "./layout/content";
+@import "./layout/sidebar";
+@import "./layout/hotelview";
+
+@import "./components/navigation";
 
 @import "./pages/home";

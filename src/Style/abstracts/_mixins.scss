@@ -62,3 +62,7 @@ breackpoint argument choise:
 // 		}
 // 	}
 // }
+
+@mixin boxShadow($y, $z, $opacity) {
+	box-shadow: 0 $y $z rgba($color-black, $opacity);
+}
