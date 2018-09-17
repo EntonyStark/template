@@ -1,0 +1,32 @@
+.list {
+	margin: 3rem 0;
+	padding: 3rem 0;
+	border-top: 1px solid $grey-light-2;
+	border-bottom: 1px solid $grey-light-2;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	&__item {
+		flex: 0 0 50%;
+		margin-bottom: 0.7rem;
+
+		&::before {
+			content: "";
+			display: inline-block;
+			height: 1rem;
+			width: 1rem;
+			margin-right: 0.7rem;
+
+			//old browsers
+			// background-image: url("../Image/chevron-thin-right.svg");
+			// background-size: cover;
+
+			// new version browsers - masks
+
+			background-color: $primary;
+			mask-image: url("../Image/chevron-thin-right.svg");
+			mask-size: cover;
+		}
+	}
+}

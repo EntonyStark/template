@@ -18,5 +18,10 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "./layout/hotelview";
 
 @import "./components/navigation";
+@import "./components/gallery";
+@import "./components/owerview";
+@import "./components/buttons";
+@import "./components/list";
+@import "./components/detail";
 
 @import "./pages/home";
