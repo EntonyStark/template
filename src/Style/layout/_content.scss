@@ -1,5 +1,9 @@
 .content {
 	display: flex;
+	@media only screen and (max-width: $bp-medium) {
+		flex-direction: column;
+		margin: 0;
+	}
 }
 
 .detail {
@@ -8,6 +12,14 @@
 	background-color: $grey-light-1;
 	padding: 4.5rem;
 	border-bottom: 1px solid $grey-light-2;
+
+	@media only screen and (max-width: $bp-medium) {
+		padding: 3rem;
+	}
+
+	@media only screen and (max-width: $bp-small) {
+		flex-direction: column;
+	}
 }
 
 .description {
@@ -15,7 +27,17 @@
 	margin-right: 4.5rem;
 	background-color: $color-white;
 	box-shadow: 0 2rem 5rem rgba($color-black, 0.06);
-	padding: 2rem;
+	padding: 3rem;
+
+	@media only screen and (max-width: $bp-medium) {
+		padding: 2rem;
+		margin-right: 3rem;
+	}
+
+	@media only screen and (max-width: $bp-small) {
+		margin-right: 0;
+		margin-bottom: 3rem;
+	}
 }
 
 .user-reviews {

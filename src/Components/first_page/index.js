@@ -5,6 +5,7 @@ import Navigation from './navigation';
 import HotelView from './hotel-view';
 import Owerview from './owerview';
 import Details from './detail';
+import Cta from './cta';
 
 export default props => (
   <div className="container">
@@ -15,6 +16,7 @@ export default props => (
         <HotelView />
         <Owerview />
         <Details />
+        <Cta />
       </main>
     </div>
   </div>

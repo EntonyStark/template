@@ -3,4 +3,10 @@
 	margin: 8rem auto;
 	background-color: $grey-light-1;
 	@include boxShadow(2rem, 6rem, 0.3);
+
+	@media only screen and (max-width: $bp-largest) {
+		margin: 0;
+		min-width: 100%;
+		width: 100%;
+	}
 }
